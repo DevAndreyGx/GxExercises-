@@ -138,17 +138,17 @@ function imprimir() {
     document.write("Sindicato: " + sindicato + '</br>');
 
     if (avanSueldoX === undefined) {
-        document.write("Avance sueldo: No adelanto sueldo" + '</br>');
+        document.write("Avance sueldo: N.A" + '</br>');
     } else {
         document.write("Avance sueldo adelanto: " + avanceSueldo + '</br>');
     }
     if (juzgadoX === undefined) {
-        document.write("Juzgado: No tiene juzgado" + '</br>');
+        document.write("Juzgado: N.A" + '</br>');
     } else {
         document.write("Juzgado: " + juzgado + '</br>');
     }
     if (libranzaX === undefined) {
-        document.write("libranza: No tiene libranza" + '</br>');
+        document.write("libranza: N.A" + '</br>');
     } else {
         document.write("libranza: " + libranza + '</br>');
     }
